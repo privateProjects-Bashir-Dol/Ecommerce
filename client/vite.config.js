@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     define: processEnvValues,
     server: {
-      port: 5000, // optional, defaults to 5173
+      port: 5001, // optional, defaults to 5173
       // https is gone 🎉
     },
   };

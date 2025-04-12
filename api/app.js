@@ -34,7 +34,7 @@ const prodDomain = process.env.PROD_DOMAIN;
 app.use(cors({
   origin: isProduction
     ? frontendUri 
-    : "http://localhost:5000",
+    : "http://localhost:5001",
   credentials: true,
   exposedHeaders: ["set-cookie"]
 }));
